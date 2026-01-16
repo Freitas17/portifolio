@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio de André - Desenvolvedor de Sistemas e Web Design."
+    />
+    <title>André | Desenvolvedor Fullstack</title>
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container header-container">
+        <a href="#" class="logo">Andre<span>.Dev</span></a>
+
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="material-icons">menu</span>
+        </div>
+
+        <nav class="nav-menu" id="nav-menu">
+          <a href="#hero">Início</a>
+          <a href="#projetos">Projetos</a>
+          <a href="#sobre">Minha Jornada</a>
+          <a href="#contato" class="btn-nav">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <div class="container hero-content">
+          <p class="greeting">Olá, eu sou o André</p>
+          <h1>
+            Eu desenvolvo <br />
+            <span class="cursor-blink" id="typing-text"></span>
+          </h1>
+          <p class="description">
+            Estudante de Análise e Desenvolvimento de Sistemas apaixonado por
+            criar sites interativos e funcionais que ajudam empresas a crescer.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projetos" class="btn-primary">Ver Projetos</a>
+            <a
+              href="https://github.com/Freitas17"
+              target="_blank"
+              class="btn-outline"
+              >GitHub</a
+            >
+          </div>
+        </div>
+        <div class="purple-glow"></div>
+      </section>
+
+      <section id="projetos" class="section">
+        <div class="container">
+          <h2 class="section-title">Projetos em Destaque</h2>
+
+          <div class="projects-grid">
+            <article class="project-card scroll-reveal">
+              <div class="card-image">
+                <span
+                  class="material-icons"
+                  style="font-size: 50px; opacity: 0.5"
+                  >web</span
+                >
+              </div>
+              <div class="card-content">
+                <h3>Site Institucional</h3>
+                <p>
+                  Landing page de alta conversão desenvolvida para captação de
+                  clientes.
+                </p>
+                <div class="tech-tags">
+                  <span>HTML</span><span>CSS</span><span>JS</span>
+                </div>
+                <a href="https://www.andreatakeuti.com/" class="link-project"
+                  >Ver Online
+                  <span class="material-icons">arrow_forward</span></a
+                >
+              </div>
+            </article>
+
+            <article class="project-card scroll-reveal">
+              <div class="card-image">
+                <span
+                  class="material-icons"
+                  style="font-size: 50px; opacity: 0.5"
+                  >trending_up</span
+                >
+              </div>
+              <div class="card-content">
+                <h3>Sistema de Gerenciamento de Clinica</h3>
+                <p>
+                  Interface moderna para Gestão de clinica com gerenciamento de 
+                  estoque e financias interativo.
+                </p>
+                <div class="tech-tags">
+                  <span>Vue.js</span><span>Node</span>
+                </div>
+                <a href="https://freitas17.github.io/Biodente/index.html" class="link-project"
+                  >Ver Online
+                  <span class="material-icons">arrow_forward</span></a
+                >
+              </div>
+            </article>
+
+            <article class="project-card scroll-reveal">
+              <div class="card-image">
+                <span
+                  class="material-icons"
+                  style="font-size: 50px; opacity: 0.5"
+                  >smart_toy</span
+                >
+              </div>
+              <div class="card-content">
+                <h3>Site com IA</h3>
+                <p>
+                  Protótipo de IA que gera receitas baseado
+                  nos ingredientes da sua geladeira.
+                </p>
+                <div class="tech-tags">
+                  <span>React</span><span>Mobile</span>
+                </div>
+                <a href="https://mestre-cuca-ia.onrender.com/" class="link-project"
+                  >Ver Online
+                  <span class="material-icons">arrow_forward</span></a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre" class="section bg-card">
+        <div class="container about-container">
+          <div class="about-text scroll-reveal">
+            <h2 class="section-title" style="text-align: left">
+              Minha <span style="color: var(--primary)">Jornada</span>
+            </h2>
+            <p style="margin-bottom: 30px; color: var(--text-gray)">
+              Unindo a prática técnica com a base acadêmica. Meu objetivo é
+              transformar conhecimento em software de qualidade.
+            </p>
+
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <span class="badge">Cursando</span>
+                  <h3>Análise e Des. de Sistemas</h3>
+                  <p class="school">Faculdade (Ensino Superior)</p>
+                  <p class="desc">
+                    Foco em engenharia de software, arquitetura de sistemas e
+                    metodologias ágeis. Aprofundando em POO e Estrutura de
+                    Dados.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <span class="badge completed">Concluído</span>
+                  <h3>Técnico em Des. de Sistemas</h3>
+                  <p class="school">ETEC</p>
+                  <p class="desc">
+                    Base sólida em lógica de programação (C#), banco de dados
+                    (SQL) e desenvolvimento de aplicações desktop.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <span class="badge completed">Concluído</span>
+                  <h3>Desenvolvimento de Sites</h3>
+                  <p class="school">SENAI</p>
+                  <p class="desc">
+                    Especialização em Front-end: HTML5, CSS3, Flexbox/Grid e
+                    criação de layouts responsivos e modernos.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-stats scroll-reveal">
+            <h3 style="margin-bottom: 20px">Minha Stack</h3>
+            <div class="skills-grid">
+              <div class="skill-card">
+                <span class="material-icons">code</span>
+                <strong>Front-end</strong>
+                <p>HTML, CSS, JS</p>
+              </div>
+              <div class="skill-card">
+                <span class="material-icons">settings_ethernet</span>
+                <strong>Back-end</strong>
+                <p>C#, Python, Node.js</p>
+              </div>
+              <div class="skill-card">
+                <span class="material-icons">storage</span>
+                <strong>Dados</strong>
+                <p>SQL, MongoDB</p>
+              </div>
+              <div class="skill-card">
+                <span class="material-icons">brush</span>
+                <strong>Design</strong>
+                <p>UI/UX, Figma</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section"
+        style="
+          text-align: center;
+          background: linear-gradient(to bottom, var(--bg-dark), #13131f);
+        "
+      >
+        <div class="container">
+          <h2 class="section-title" style="margin-bottom: 20px">
+            Tem uma ideia incrível?
+          </h2>
+          <p
+            style="
+              font-size: 1.2rem;
+              color: var(--text-gray);
+              max-width: 600px;
+              margin: 0 auto 40px auto;
+            "
+          >
+            Não deixe seu projeto apenas no papel. Vamos construir algo moderno,
+            rápido e que traga resultados para o seu negócio.
+          </p>
+
+          <a
+            href="https://wa.me/5511953885553?text=Ol%C3%A1%2C%20vi%20seu%20site%20e%20quero%20fazer%20um%20or%C3%A7amento."
+            target="_blank"
+            class="btn-magic"
+          >
+            Fazer Orçamento Grátis
+            <span class="material-icons">arrow_forward</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contato">
+      <div class="container">
+        <h3 style="margin-bottom: 20px; color: var(--text-white)">
+          Vamos conversar?
+        </h3>
+        <p style="margin-bottom: 30px">
+          Estou disponível para projetos freelance e oportunidades.
+        </p>
+
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/freitas17/">LinkedIn</a>
+          <a href="https://github.com/Freitas17">GitHub</a>
+          <a href="mailto:contato.andrecode@gmail.com">Email</a>
+        </div>
+        <p style="margin-top: 50px; font-size: 0.8rem">
+          &copy; 2026 André Freitas. Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
+
+    <a
+      href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20vi%20seu%20site%20e%20quero%20fazer%20um%20or%C3%A7amento."
+      class="btn-whatsapp"
+      target="_blank"
+      title="Fale comigo no WhatsApp"
+    >
+      <span class="material-icons" style="font-size: 30px">chat</span>
+    </a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
